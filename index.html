@@ -22,7 +22,8 @@
 		
 		<script src="https://cdn.jsdelivr.net/gh/yanchao00551/BlogAssets@1.0/js/jquery/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/gh/yanchao00551/BlogAssets@1.0/js/jquery/jquery-ui.js"></script>
-		<script src="https://cdn.jsdelivr.net/gh/yanchao00551/BlogAssets@1.0/js/main.js"></script>
+		
+		<script src="https://cdn.jsdelivr.net/gh/yanchao00551/BlogAssets@latest/js/main.js"></script>
 		
 		
 
@@ -42,8 +43,7 @@
 				<h1><a href="https://ebay-cloud.com/" title="E度云空间"><span class="octicon octicon-mark-github"></span> E度云空间</a>
 				</h1><button class="collapsed mobile-visible" type="button" onclick="toggleMenu();"> <span
 						class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<nav class="site-header-nav" role="navigation"> <a href="https://mazhuang.org/"
-						class=" site-header-nav-item" target="" title="首页">首页</a> <a
+				<nav class="site-header-nav" role="navigation"> <a href="#url" class=" site-header-nav-item" target="" title="首页">首页</a> <a
 						href="https://ebay-cloud.com/categories/" class=" site-header-nav-item" target=""
 						title="分类">分类</a> <a href="https://ebay-cloud.com/wiki/" class=" site-header-nav-item" target=""
 						title="维基">维基</a> <a href="https://ebay-cloud.com/links/" class=" site-header-nav-item" target=""
@@ -111,14 +111,15 @@
 				</div>
 				<div class="column one-third">
 					<h3>搜索</h3>
-					<div id="site_search"> <input style="width:96%" type="text" id="search_box" placeholder="Search">
+					<div id="site_search"> 
+					<input style="width:66%" type="text" id="search_box" placeholder="Search">
+					<button class="btn" type="button">搜索</button>
+					
 					</div>
 					<ul id="search_results"
 						style="font-size:14px;list-style-type:none;padding-top:10px;padding-left:10px;"></ul>
 						
-					<script
-						src="https://cdn.jsdelivr.net/gh/yanchao00551/BlogAssets@1.0/js/simple-jekyll-search.min.js">
-					</script>
+			
 					
 					<script type="text/javascript">
 						/* SimpleJekyllSearch({
@@ -186,39 +187,42 @@
 					<div class="Box Box--condensed detail">
 					    <ul>
 							<li class="Box-row">
-							  文章111111
+							   <a class="Link--primary no-underline" href="#url">文章111111</a>
+							</li>
+							
+							<li class="Box-row">
+							  <a class="Link--primary no-underline" href="#url">文章2222222</a>
 							</li>
 							<li class="Box-row">
-							  文章222222
+							  <a class="Link--primary no-underline" href="#url">文章333333</a>
 							</li>
 							<li class="Box-row">
-							  文章333333
+							  <a class="Link--primary no-underline" href="#url">文章7444444</a>
 							</li>
 							<li class="Box-row">
-							  文章444444
+							  <a class="Link--primary no-underline" href="#url">文章555555555</a>
 							</li>
-							<li class="Box-row">
-							  文章555555
-							</li>
+	
 					    </ul>
 					</div>
 					
 					<div class="Box Box--condensed detail" style="display: none;">
 					    <ul>
 					    	<li class="Box-row">
-					    	  文章1111118
+					    	   <a class="Link--primary no-underline" href="#url">文章999999</a>
+					    	</li>
+					    	
+					    	<li class="Box-row">
+					    	  <a class="Link--primary no-underline" href="#url">文章989898989</a>
 					    	</li>
 					    	<li class="Box-row">
-					    	  文章2222228
+					    	  <a class="Link--primary no-underline" href="#url">文章333333</a>
 					    	</li>
 					    	<li class="Box-row">
-					    	  文章3333338
+					    	  <a class="Link--primary no-underline" href="#url">文章7444444</a>
 					    	</li>
 					    	<li class="Box-row">
-					    	  文章4444448
-					    	</li>
-					    	<li class="Box-row">
-					    	  文章5555558
+					    	  <a class="Link--primary no-underline" href="#url">文章555555555</a>
 					    	</li>
 					    </ul>
 					</div>
@@ -229,7 +233,8 @@
 				
 				<div class="Box Box--blue Box--condensed">
 				  <div class="Box-header">
-				    网站信息
+				    <svg height="18" class="octicon octicon-mark-github anim-rotate" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+					网站信息
 				  </div>
 				  <ul>
 				    <li class="Box-row Box-row--unread">
@@ -268,7 +273,7 @@
 				<div class="btn-group"> <button disabled="disabled" href="javascript:;"
 						class="btn btn-outline">&laquo;</button> <a href="javascript:;"
 						class="active btn btn-outline">1</a> <a href="https://ebay-cloud.com/page2"
-						class="btn btn-outline">2</a> <a href="https://mazhuang.org/page3" class="btn btn-outline">3</a>
+						class="btn btn-outline">2</a> <a href="#url/page3" class="btn btn-outline">3</a>
 					<a href="https://ebay-cloud.com/page4" class="btn btn-outline">4</a> <a
 						href="https://ebay-cloud.com/page5" class="btn btn-outline">5</a> <a
 						href="https://ebay-cloud.com/page6" class="btn btn-outline">6</a> <a

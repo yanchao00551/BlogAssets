@@ -34,7 +34,7 @@ jQuery(function() {
   
   $(".tabnav-tabs a.tabnav-tab").each(function(index) {
 	  $(this).click(function(e) {
-		  $(this).setAttribute("aria-current","page").siblings().setAttribute("aria-current","");
+		  $(this).attr("aria-current","page").siblings().removeAttr("aria-current");
 		  $(".detail").eq(index).show().siblings(".detail").hide();
 	  })
   });
